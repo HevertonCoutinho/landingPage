@@ -13,7 +13,7 @@ header{
 
 #nav_logo {
     font-size: 24px;
-    color: #e9e209;
+    color: #e9a209;
 }
 
 #nav_list {
@@ -50,5 +50,20 @@ header{
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
+    }
+    #mobile_menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0;
+    }
+    #mobile_nav_list .nav-item{
+        list-style: none;
+        text-align: center;
     }
 }
