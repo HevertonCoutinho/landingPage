@@ -1,1 +1,3 @@
 # landingPage
+
+Este é um exemplo de landing Page comumente utilizada, encontra-se em desenvolvimento...
